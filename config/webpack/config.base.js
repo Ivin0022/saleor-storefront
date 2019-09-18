@@ -105,7 +105,7 @@ module.exports = ({ sourceDir, distDir }) => ({
       }
     }),
     new webpack.EnvironmentPlugin({
-      "BACKEND_URL": "http://localhost:8000/",
+      "BACKEND_URL": "https://loun-shop.herokuapp.com/",
       "SERVICE_WORKER_TIMEOUT": "60000"
     })
   ],
